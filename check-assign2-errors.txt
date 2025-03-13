@@ -1,0 +1,13 @@
+Warning: The unit file, source configuration file or drop-ins of netplan-ovs-cleanup.service changed on disk. Run 'systemctl daemon-reload' to reload units.
+WARNING:root:Cannot call Open vSwitch: ovsdb-server.service is not running.
+dpkg-preconfigure: unable to re-open stdin: No such file or directory
+Warning: Permanently added 'server1-mgmt' (ED25519) to the list of known hosts.
+grep: /etc/netplan/50-cloud-init.yaml: No such file or directory
+
+** (generate:240): WARNING **: 23:15:47.178: Permissions for /etc/netplan/50-cloud-init.yaml are too open. Netplan configuration should NOT be accessible by others.
+
+** (generate:240): WARNING **: 23:15:47.179: `gateway4` has been deprecated, use default routes instead.
+See the 'Default routes' section of the documentation for more details.
+/etc/netplan/50-cloud-init.yaml:8:20: Error in network definition: malformed address '8.8.8.8 1.1.1.1 9.9.9.9', must be X.X.X.X or X:X:X:X:X:X:X:X
+        addresses: [8.8.8.8 1.1.1.1 9.9.9.9]
+                   ^
